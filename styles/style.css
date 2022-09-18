@@ -23,8 +23,8 @@ body {
  h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
-    font-size: 2em;
-    text-align: auto; 
+    font-size: 2.5em;
+    align-items: auto; 
     grid-column: 2; 
     grid-row: 1;
     padding-top: 30px;     
@@ -38,7 +38,8 @@ body {
 img {
     margin-top: 6px;
     border-radius: 5px 5px 5px 5px;
-    height: 140px;    
+    height: 140px;
+    align-items: center;    
     grid-column: 1; 
     grid-row: 1;    
     box-shadow: 5px 5px 5px  rgb(49, 45, 45);  
