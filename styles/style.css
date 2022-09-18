@@ -23,14 +23,16 @@ body {
  h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
-    font-size: 2em;   
+    font-size: 2em;
+    text-align: auto; 
     grid-column: 2; 
-    grid-row: 1;    
+    grid-row: 1;
+    padding-top: 30px;     
     text-shadow: black 8px 8px 8px     
   }
 
  h2 {
- text-shadow: rgb(139, 120, 120) 5px 5px 5px 
+ text-shadow: rgb(116, 102, 102) 5px 5px 5px 
 }
 
 img {
