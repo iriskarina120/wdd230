@@ -24,11 +24,10 @@ body {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
     font-size: 2.5em;
-    align-items: auto; 
+    align-items: center; 
     grid-column: 2; 
     grid-row: 1;
-    padding-top: 30px; 
-    padding-left: 3px;    
+    padding-top: 30px;    
     text-shadow: black 8px 8px 8px     
   }
 
