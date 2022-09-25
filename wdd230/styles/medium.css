@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em){
+    h1 {
+        font-size: 1 em;
+        margin-top: 5px;
+        align-self: initial;
+    }
+    h2{
+        font-size: 1 em;
+    }
+    img{
+        height: 1em;        
+    }
+
+    p { font-size: 1 em;
+
+    }
+}
