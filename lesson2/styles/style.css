@@ -1,34 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 body {
-    max-width: 550px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em;    
-  }
+  margin: auto;
+  max-width: 900px;
+  align-self: center;
+}
   header { 
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    justify-items: center;    
+    
     background-color: #2383dd;   
-    height: 160px; 
+    
     box-shadow: 10px 10px 10px  #999;    
-    border-radius: 7px 7px 7px 7px;
-    padding: 5px;           
+    border-radius: 7px 7px 7px 7px;        
+    margin: 0 1em 1em 1em;    
+    max-width: 100%;
+    text-align: center;
+    
   }
 
-  main {line-height: 2;
-  }
-  
- h1 {
+  h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    letter-spacing: 10px;
     align-items: center; 
     grid-column: 2; 
     grid-row: 1;
-    padding-top: 30px;    
-    text-shadow: black 8px 8px 8px     
+    padding: 1em;    
+    text-shadow: black 8px 8px 8px
+         
   }
 
  h2 {
@@ -38,12 +36,29 @@ body {
 img {
     margin-top: 6px;
     border-radius: 5px 5px 5px 5px;
-    height: 140px;
+    height: 50%;
     align-items: center;    
     grid-column: 1; 
     grid-row: 1;    
     box-shadow: 5px 5px 5px  rgb(49, 45, 45);  
  }
+
+ #list-sections {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 1em;
+  align-items: center;
+  margin: 1.5em 1em 1em 1em;
+}
+
+#section1,
+#section2,
+#section3 {  
+  border-radius: 20px; 
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
 
 .footer_class {
     background-color: #2383dd; /*Dark red*/   
