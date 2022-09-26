@@ -6,8 +6,7 @@ body {
 }
   .document-box {    
    
-    box-shadow: 10px 10px 10px  #999;    
-    border-radius: 7px 7px 7px 7px;        
+    box-shadow: 10px 10px 10px 10px #999;            
     margin: 0 1em 1em 1em;    
     max-width: 100%;
     text-align: center;
@@ -15,7 +14,8 @@ body {
   }
 header {
   background-color: #2383dd; 
-  padding: 1.5em;     
+  padding: 1.5em; 
+  border-radius: 7px 7px 7px 7px;    
 
 }
   h1 {
