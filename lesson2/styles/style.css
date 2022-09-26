@@ -18,11 +18,9 @@ header {
 }
   h1 {
     font-family: "Original Surfer", georgia, sans-serif;
-    color: white;
-    font-size: 3em;
+    color: white;    
     letter-spacing: 10px;
-    align-items: center;     
-    padding: 1em;    
+    align-items: center;      
     text-shadow: black 8px 8px 8px         
   }
 
