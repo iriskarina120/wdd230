@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 body {
   margin: auto; 
-  max-width: 1000px;
+  max-width: 900px;
   align-self: center;
 }
   .document-box {    
@@ -30,7 +30,7 @@ header {
 }
 
 h3{
-  font-weight: 400;
+  font-weight: 600;
 }
 
 img {
@@ -42,7 +42,7 @@ img {
     background-color: #2383dd;  
  }
 
- .list-sections {
+ #list-sections {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
