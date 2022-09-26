@@ -1,10 +1,10 @@
-@media only screen and (max-width:540px) {
+@media only screen and (min-width:540px) {
     #list-sections {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-gap: 1.5em;
-        grid-row: 1;       
+        grid-row: 1; 
     }
 
     #section3{
@@ -17,6 +17,4 @@
         margin: 20px auto 20px auto;
         
     }
-
-
 }
