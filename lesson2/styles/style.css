@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 body {
   margin: auto; 
-  max-width: 1200px;
+  max-width: 1000px;
   align-self: center;
 }
   .document-box {    
-   
     box-shadow: 10px 10px 10px 10px #999;            
     margin: 0 1em 1em 1em;    
     max-width: 100%;
@@ -14,23 +13,27 @@ body {
   }
 header {
   background-color: #2383dd; 
-  padding: 1.5em; 
+  padding: 1em; 
   border-radius: 7px 7px 7px 7px;    
 
 }
   h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
-    font-size: 1.5em;
+    font-size: 3em;
     letter-spacing: 10px;
     align-items: center;     
     padding: 1em;    
-    text-shadow: black 8px 8px 8px
-         
+    text-shadow: black 8px 8px 8px         
   }
 
  h2 {
  text-shadow: rgb(116, 102, 102) 5px 5px 5px 
+ 
+}
+
+h3{
+  font-weight: 400;
 }
 
 img {
@@ -38,7 +41,7 @@ img {
     border-radius: 5px 5px 5px 5px;
     max-width: 80%;      
     box-shadow: 5px 5px 5px  rgb(49, 45, 45);
-    padding: 1.5em;
+    padding: 1em;
     background-color: #2383dd;  
  }
 
