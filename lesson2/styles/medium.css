@@ -1,4 +1,4 @@
-@media only screen and (min-width:540px) {
+@media only screen and (max-width:540px) {
     #list-sections {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

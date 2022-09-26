@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 body {
   margin: auto;
-  max-width: 900px;
+ 
   align-self: center;
 }
   header { 
     
-    background-color: #2383dd;   
-    
+    background-color: #2383dd;    
     box-shadow: 10px 10px 10px  #999;    
     border-radius: 7px 7px 7px 7px;        
     margin: 0 1em 1em 1em;    
@@ -21,9 +20,7 @@ body {
     color: white;
     font-size: 1.5em;
     letter-spacing: 10px;
-    align-items: center; 
-    grid-column: 2; 
-    grid-row: 1;
+    align-items: center;     
     padding: 1em;    
     text-shadow: black 8px 8px 8px
          
@@ -34,9 +31,9 @@ body {
 }
 
 img {
-    margin-top: 6px;
+  
     border-radius: 5px 5px 5px 5px;
-    height: 50%;
+    height: 60%;
     align-items: center;    
     grid-column: 1; 
     grid-row: 1;    
@@ -45,8 +42,7 @@ img {
 
  #list-sections {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-row-gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   margin: 1.5em 1em 1em 1em;
 }
@@ -57,7 +53,7 @@ img {
   border-radius: 20px; 
   height: 100%;
   text-align: center;
-  align-items: center;
+ 
 }
 
 .footer_class {
