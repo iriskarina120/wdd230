@@ -38,7 +38,8 @@ img {
     border-radius: 5px 5px 5px 5px;
     max-width: 80%;      
     box-shadow: 5px 5px 5px  rgb(49, 45, 45);
-    padding: 1.5em;  
+    padding: 1.5em;
+    background-color: #2383dd;  
  }
 
  .list-sections {
