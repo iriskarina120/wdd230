@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
 body {
-  margin: auto;
- 
+  margin: auto; 
+  max-width: 1200px;
   align-self: center;
 }
-  header { 
-    
-    background-color: #2383dd;    
+  .document-box {    
+   
     box-shadow: 10px 10px 10px  #999;    
     border-radius: 7px 7px 7px 7px;        
     margin: 0 1em 1em 1em;    
@@ -14,7 +13,11 @@ body {
     text-align: center;
     
   }
+header {
+  background-color: #2383dd; 
+  padding: 1.5em;     
 
+}
   h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;
@@ -31,20 +34,20 @@ body {
 }
 
 img {
-  
+    margin: 20px 0px 20px 0px;
     border-radius: 5px 5px 5px 5px;
-    height: 60%;
-    align-items: center;    
-    grid-column: 1; 
-    grid-row: 1;    
-    box-shadow: 5px 5px 5px  rgb(49, 45, 45);  
+    max-width: 80%;      
+    box-shadow: 5px 5px 5px  rgb(49, 45, 45);
+    padding: 1.5em;  
  }
 
- #list-sections {
+ .list-sections {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   align-items: center;
+  grid-row-gap: 0.8em;
   margin: 1.5em 1em 1em 1em;
+  padding: 2em;
 }
 
 #section1,
@@ -53,6 +56,7 @@ img {
   border-radius: 20px; 
   height: 100%;
   text-align: center;
+  padding: 1em;
  
 }
 
