@@ -15,6 +15,7 @@ header {
   background-color: #2383dd;  
   border-radius: 7px 7px 7px 7px;
   height: 120px; 
+  padding-top: 5px;
 }
   h1 {
     font-family: "Original Surfer", georgia, sans-serif;
