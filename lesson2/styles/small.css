@@ -14,7 +14,7 @@ body {
 header {
   background-color: #2383dd;  
   border-radius: 7px 7px 7px 7px;
-  height: 130px; 
+  height: 140px; 
   padding-top: 5px;
 }
   h1 {
@@ -48,7 +48,8 @@ img {
   grid-template-rows: repeat(3, 1fr);
   align-items: center;
   grid-row-gap: 0.8em;
-  margin: 1.5em 1em 1em 1em;
+  margin: 3em 1em 1em 1em;
+
   
 }
 
