@@ -12,5 +12,11 @@
         
     }
 
+    nav ul{
+        display: flex;
+    }
+
+
+
     
 }
