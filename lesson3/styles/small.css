@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Original+Surfer&display=swap");
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #5c8001; /*dark green */
+  --secondary-color: #fbb02d; /*dark yellow */
+  --accent1-color: #7cb518; /*light green */
+  --accent2-color: #c1beba; /* light gray */
+}
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td {
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2 {
+    background-color: var(--accent2-color);
+  }
+  
+  p.colored {
+    background-color: #7cb518; /*light green */
+    color: white;
+  }
+
+body {
+  margin: auto; 
+  max-width: 1000px;
+  align-self: center;
+  background-color: #c1beba;  
+}
+
+nav {
+  background-color: #fbb02d; /*dark yellow */
+  line-height: 3em;
+  text-align: justify;
+  font-size: 1.5em;
+}
+nav  ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;   
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8em; 
+  text-align: center;
+  font-family: "Roboto", Helvetica, Arial;
+  box-shadow: 3px 3px 3px  #5c8001; /*dark green */
+}
+
+nav a:hover {
+  color: white;
+  background-color: #7cb518; /*light green */  
+}
+  
+header {
+  background-color: #5c8001; /*dark green */
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 10px 10px 10px  #999; 
+  height: 140px; 
+  padding: 5px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: "Roboto", Helvetica, Arial;
+  text-align: justify;
+}
+
+main{
+  padding: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 10px  #999; 
+}
+  h1 {
+    font-family: "Original Surfer", georgia, sans-serif;
+    color: white;    
+    letter-spacing: 5px;
+    text-align: center;      
+    text-shadow: black 8px 8px 8px;
+    font-size: 2.5em;         
+  }
+
+  h2{
+    color: white;
+    font-family: "Roboto", Helvetica, Arial;
+    text-align: center;
+    font-size: 2em;   
+  }
+
+ h3 { 
+ color: #5c8001; /*dark green */ 
+ font-weight: 600; 
+ font-size: 1.5em;
+ font-family: "Roboto", Helvetica, Arial;
+}
+
+img {    
+    max-width: 30%;
+    align-self: center;    
+ }
+
+ .footer_class {
+    background-color: #5c8001; /*dark green */  
+    height: 90px; 
+    box-shadow: 10px 10px 10px  #999; 
+    border-radius: 7px 7px 7px 7px;    
+    text-align: center; 
+    padding: 5px;  
+}
+
+#copyrigth {
+    color: white;     
+ }
+
+.footer_update{
+    color: rgb(221, 224, 22); 
+    font-size: large;
+ } 
+
+ footer p {
+   color:white;
+   text-align: center;   
+ }
