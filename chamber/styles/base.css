@@ -38,35 +38,87 @@
     background-color: #7cb518; /*light green */
     color: white;
   }
-
+  
 body {
   margin: auto; 
-  max-width: 1000px;
+  max-width: 1500px;
   align-self: center;
   background-color: #c1beba;  
 }
 
+header {
+    background-color: #5c8001; /*dark green */
+    height: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+header h1{   
+    grid-column: 2;
+    grid-row: 1;    
+}
+header h2{   
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 60px;
+}
+
+.date {
+    grid-column: 2;
+    grid-row: 2/3;
+    padding: 10px 20%;
+    font-weight: 400;
+    margin: 10px;
+    border: 1px solid #bbb;
+    color: #eee;
+  }
+
+.social-media {
+    grid-row: 2;
+    grid-column: 3;   
+    display: flex;
+    justify-content: flex-end;
+         
+} 
+
+.facebook-logo,
+.linkedin-logo {
+    margin: 0px 10px 0px 10px;
+  }
+/*--------------------nav----------------------*/
 nav {
   background-color: #fbb02d; /*dark yellow */
-  line-height: 3em;  
+  line-height: 2em;  
   font-size: 1.5em;
+  grid-column: 1/4;
 }
-#nav_label{
+
+#nav-label{
   align-items: stretch;
 }  
 
 nav  ul {
   list-style-type: none;
-  display: flex;   
+  display: flex; 
+  z-index: 1;
+    
 }
 
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;  
+  }
+nav ul li.active a {
+    background-color: #fbb02d; /*dark yellow */
+    color: #ffffff;
+
+  }
 
 nav a {
   color: white;
   text-decoration: none;
   padding: 0.8em; 
-  text-align: center;
-  
+  text-align: center;  
   font-family: "Roboto", Helvetica, Arial;
   box-shadow: 3px 3px 3px  #5c8001; /*dark green */
 }
@@ -74,16 +126,25 @@ nav a {
 nav a:hover {
   color: white;
   background-color: #7cb518; /*light green */  
+} 
+nav ul {
+    display: none;
+  }
+nav ul.open {
+    display: block;
 }
-  
-header {
-  background-color: #5c8001; /*dark green */
-  border-radius: 7px 7px 7px 7px;
-  box-shadow: 10px 10px 10px  #999; 
-  height: 140px; 
-  padding: 5px;
-  margin-top: 10px;
+#burgger-btn span:nth-child(1) {
+    display: block;
 }
+#burgger-btn span:nth-child(2) {
+    display: none;
+}
+#burgger-btn.open span:nth-child(1) {
+    display: none;
+}
+#burgger-btn.open span:nth-child(2) {
+    display: block;
+} 
 
 p {
   font-family: "Roboto", Helvetica, Arial;
@@ -95,33 +156,42 @@ main{
   background-color: white;
   box-shadow: 10px 10px 10px  #999; 
 }
-  h1 {
+h1 {
     font-family: "Original Surfer", georgia, sans-serif;
     color: white;    
     letter-spacing: 5px;
     text-align: center;      
     text-shadow: black 8px 8px 8px;
     font-size: 2.5em;         
-  }
+}
 
-  h2{
+h2{
     color: white;
     font-family: "Roboto", Helvetica, Arial;
     text-align: center;
     font-size: 2em;   
-  }
+}
+
+.home-page {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 10px;
+    padding: 0.5em;
+    margin: 10px 20px 10px 20px;
+}
 
  h3 { 
- color: #5c8001; /*dark green */ 
- font-weight: 600; 
- font-size: 1.5em;
- font-family: "Roboto", Helvetica, Arial;
+    color: #5c8001; /*dark green */ 
+    font-weight: 600; 
+    font-size: 1.5em;
+    font-family: "Roboto", Helvetica, Arial;
 }
 
 img {    
     max-width: 30%;
     align-self: center;    
  }
+ 
 
  .footer_class {
     background-color: #5c8001; /*dark green */  
@@ -145,5 +215,3 @@ img {
    color:white;
    text-align: center;   
  }
-
- 
