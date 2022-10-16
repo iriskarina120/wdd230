@@ -1,9 +1,7 @@
 function toggleMenu(){
-    document.getElementById("nav-label").classList.toggle("open");
-    document.getElementById("burgger-btn").classList.toggle("open");
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburguerBtn").classList.toggle("open");
 }
-    const x = document.getElementById("burgger-btn");
-    x.onclick = toggleMenu;
-
-
+const x = document.getElementById("hamburguerBtn");
+x.onclick = toggleMenu;
 

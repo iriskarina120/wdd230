@@ -1,0 +1,115 @@
+@media only screen and (min-width: 64rem) {
+
+    /*----------Header----------*/
+    .header-content {
+        display: grid;
+        grid-template-columns: auto auto auto auto;        
+    }
+    
+    .logo {
+        grid-column: 2/3;
+    }
+    .chamber-name {
+        grid-column: 3/4;
+    }
+    nav {
+        grid-column: 4/10;
+        grid-row: 1;
+    }
+    .social-media {
+        grid-column: 10;
+    }
+    .date {
+        grid-column: 1/11;
+        grid-row: 2/3;
+        text-align: center;
+        color: black;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        position: initial;
+        z-index: 1;        
+        right: 0px;     
+        
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-top: none;
+        font-size: 1em;
+    }
+    /*---------- MAIN ----------*/
+    .home-page {
+        margin: 10px 50px;
+    }
+    .event-left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .weather-left {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .join-left {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin: 5px;
+    }
+    .main-img {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        margin-top: 5px;
+    }
+    .news-release {
+        grid-column: 2/4;
+        grid-row: 3/4;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    /* N A V I G A T I O N */
+    #primaryNav {
+        display: flex;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li a:hover {
+        background-color: #a8ccea;
+        border-radius: 5px;
+    }
+    nav ul li.active a {
+        border-radius: 5px;
+    }
+    /*----Discover---*/
+    .discover-section img:hover {
+        box-shadow: 0 0 60px #044B87;
+        border-radius: 20px;
+    }
+    /*----------Footer----------*/
+    .footer-chamber-inf {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5em;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    .footer-direction,
+    .footer-contact {
+        text-align: left;
+    }
+    .footer-data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-data p {
+        padding: 0px 10px 0px 10px;
+        border-left: 1px solid #FFFFFF;
+    }
