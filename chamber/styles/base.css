@@ -55,7 +55,9 @@ header {
     font-size: 2rem;
     color: white;
   }
-
+  nav ul li a:hover {
+    background-color: #7cb518; /*light green */
+  }
   
   nav ul {
     list-style-type: none;

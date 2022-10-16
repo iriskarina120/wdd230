@@ -78,7 +78,7 @@
         display: none;
     }
     nav ul li a:hover {
-        background-color: #a8ccea;
+        background-color: #7cb518; /*light green */
         border-radius: 5px;
     }
     nav ul li.active a {
@@ -86,7 +86,7 @@
     }
     /*----Discover---*/
     .discover-section img:hover {
-        box-shadow: 0 0 60px #044B87;
+        box-shadow: 0 0 60px;
         border-radius: 20px;
     }
     /*----------Footer----------*/
