@@ -79,15 +79,13 @@
     }
     nav ul li a:hover {
         background-color: #7cb518; /*light green */
-        border-radius: 5px;
+       
     }
-    nav ul li.active a {
-        border-radius: 5px;
-    }
+   
     /*----Discover---*/
     .discover-section img:hover {
         box-shadow: 0 0 60px;
-        border-radius: 20px;
+        
     }
     /*----------Footer----------*/
     .footer-chamber-inf {
