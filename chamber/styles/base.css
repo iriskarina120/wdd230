@@ -13,7 +13,7 @@
 header {
     background-color: #5c8001; /*dark green */
   }
-  .header-content, main {
+  .header-content {
     font-family: "Roboto", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -127,9 +127,12 @@ div#invite-chamber {
 }
 main img { 
   border-radius: 10px;
+  max-width: 100%;
 }
 .main-img {
   position: relative;
+ 
+
 }
 .main-img img,
 .event-left,
@@ -137,6 +140,24 @@ main img {
 .news-release,
 .join-left {
   box-shadow: 5px 5px 2px 2px  #c1beba; /* light gray */
+  text-align: center;
+}
+.spotlight-1 {
+  margin: 15px 15px 0px 15px;
+}
+.spotlight-2 {
+  margin: 0px 15px 15px 15px;
+}
+.spotlight-1 p,
+.spotlight-2 p,
+.spotlight-1 .urlLink,
+.spotlight-2 .urlLink,
+.spotlight-3 .urlLink {
+  margin: 5px;
+}
+.spotlight-3,
+.join-left {
+  display: none;
 }
 
 h3 {
