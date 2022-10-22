@@ -17,10 +17,10 @@ header {
     font-family: "Roboto", sans-serif;
     padding: 10px;   
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
     flex-flow: row wrap;
-    column-gap: 50px;
+    column-gap: 30px;
   }
   header img{
     border-radius: 7px 7px 7px 7px;
