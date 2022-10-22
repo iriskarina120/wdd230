@@ -19,8 +19,7 @@ header {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    flex-flow: row wrap;
-    column-gap: 30px;
+    flex-flow:nowrap;   
   }
   header img{
     border-radius: 7px 7px 7px 7px;
