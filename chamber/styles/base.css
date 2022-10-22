@@ -18,7 +18,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:last baseline;
     align-items: center;
     flex-flow: row wrap;
   }
