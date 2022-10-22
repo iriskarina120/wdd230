@@ -19,7 +19,8 @@ header {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    flex-flow:row wrap;
   }
   header img{
     border-radius: 7px 7px 7px 7px;
@@ -106,7 +107,8 @@ header {
     margin: 10px;
     border: 1px solid #bbb;
     background-color: #eee;
-    width:100px;
+    flex-grow: 1;
+    text-align: center;
   }
   /*---------- Main ----------*/
 .home-page {
