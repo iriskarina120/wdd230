@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    flex-flow:nowrap;   
+    flex-flow: row wrap;   
   }
   header img{
     border-radius: 7px 7px 7px 7px;
