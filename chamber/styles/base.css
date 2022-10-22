@@ -34,7 +34,7 @@ header {
   }
   .chamber-name h1 {
     margin: auto;
-    font-size: 20px;
+    font-size: 22px;
   }
   .chamber-name p {
     margin: auto;
@@ -79,8 +79,7 @@ header {
   }
 
   nav ul li.active a {
-    background-color: #7cb518; /*light green */
-    
+    background-color: #7cb518; /*light green */    
   }
   
   nav ul {
