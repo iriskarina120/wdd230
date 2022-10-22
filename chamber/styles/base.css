@@ -106,6 +106,7 @@ header {
     margin: 10px;
     border: 1px solid #bbb;
     background-color: #eee;
+    width:100px;
   }
   /*---------- Main ----------*/
 .home-page {
