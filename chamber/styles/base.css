@@ -19,8 +19,7 @@ header {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+    align-items: center;    
   }
   header img{
     border-radius: 7px 7px 7px 7px;
