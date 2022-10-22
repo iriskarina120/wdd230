@@ -41,16 +41,11 @@ header {
     font-size: 16px;
   }
   .social-media {
-    display: flex;
-    column-gap:normal;
-      
+    display: flex;      
   }
-
   .social-media img {
     max-width: 60%;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;    
   }
   .facebook-logo,
   .instagram-logo {
@@ -136,11 +131,14 @@ div#invite-chamber {
  
 }
 
+main img{
+
+  max-width: 100%;
+}
 .main-img {
   position: relative;
   justify-items: center;
    border-radius: 10px;
-  max-width: 100%;
 
 }
 .main-img img,
