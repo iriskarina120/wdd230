@@ -46,6 +46,8 @@ header {
   .facebook-logo,
   .instagram-logo {
     margin: 0px 10px 0px 10px;
+    max-width: 50%;
+    max-height: 50%;
   }
   nav button {
     margin: 0.2rem 2vw;
