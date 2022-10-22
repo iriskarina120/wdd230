@@ -17,9 +17,10 @@ header {
     font-family: "Roboto", sans-serif;
     padding: 10px;   
     display: flex;
-    justify-content:last baseline;
+    justify-content:center;
     align-items: center;
     flex-flow: row wrap;
+    column-gap: 50px;
   }
   header img{
     border-radius: 7px 7px 7px 7px;
@@ -41,7 +42,15 @@ header {
   }
   .social-media {
     display: flex;
+    column-gap:normal;
+      
+  }
+
+  .social-media img {
+    max-width: 60%;
     justify-content: space-between;
+    
+    
   }
   .facebook-logo,
   .instagram-logo {
