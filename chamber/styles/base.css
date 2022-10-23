@@ -150,6 +150,15 @@ div#invite-chamber {
   background-color:#fbb02d;
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
+.event-left,
+.weather-left,
+.news-release,
+.spotlight {
+  background-color: #c1beba;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
 
 .main-img img,
 .event-left,
