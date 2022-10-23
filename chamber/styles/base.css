@@ -137,6 +137,7 @@ div#invite-chamber {
   position: relative;
   justify-items: center;
   border-radius: 10px;
+  max-width: 100%;
 }
 .join-button a {
   margin-top: -18%;
