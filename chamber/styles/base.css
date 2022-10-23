@@ -130,10 +130,13 @@ div#invite-chamber {
   font-weight: bold;
  
 }
+
 .main-img {
   position: relative;
   justify-items: center;
    border-radius: 10px;
+  max-width:100%;
+
 }
 .join-button a {
   margin-top: -18%;
