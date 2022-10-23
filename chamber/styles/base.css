@@ -148,15 +148,7 @@ div#invite-chamber {
   background-color:#fbb02d;
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
-.join-button h2 {
-  margin-top: -65%;
-  margin-right: 500px;
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 1.3em;
-  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
-}
+
 .main-img img,
 .event-left,
 .weather-left,
