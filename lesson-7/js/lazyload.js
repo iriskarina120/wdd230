@@ -35,8 +35,14 @@ images.forEach(image => {
 let oLastModif = new Date(document.lastModified);
 let currentYear = oLastModif.getFullYear();
 document.querySelector('#year').innerText = currentYear;
-
-let dateFormated = oLastModif.toLocaleString();
+const options ={day: 'numeric', month: 'numeric', year:'numeric', hour: 'numeric', minute:'numeric', second:'numeric'}
+let dateFormated = oLastModif.toLocaleString('en-US', options);
 //console.log(dateFormated)
 
 document.getElementById('currentDate').innerText = dateFormated;
+
+/*const options ={day: 'numeric', month: 'numeric', year:'numeric', hour: 'numeric', minute:'numeric', second:'numeric'}
+document.getElementById('modified').textContent = new Date().toLocaleDateString('en-US', options) 
+var date = new Date();
+var anio= date.getFullYear();
+document.querySelector('#year').textContent = anio*/
