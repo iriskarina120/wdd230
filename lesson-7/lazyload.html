@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="An example of lazy loading from cour WDD230" />
+        <link rel="stylesheet" href="./styles/lazyload.css" />
+        <script defer src="./js/lazyload.js"></script>
+        <title>Lazy Loading Example</title>
+</head>
+
+<body>
+        <header>
+                <div class="header-box">
+                        <h1 class="title-name">Lesson 7</h1>                       
+                </div>
+        </header>
+        <main>
+                <h2>Lazy Loading</h2>
+                <div class = "lazy-loading">
+                        <picture class="fade-in"><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/tech" alt="tech" /></picture>
+                        <picture class="fade-in"><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/animals" alt="animals" /></picture>
+                        <picture class="fade-in"><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/people" alt="people" /></picture>
+                        <picture class="fade-in"><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/architecture" alt="architecture" />
+                        </picture>
+                        <picture class="fade-in"><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/dog" alt="dog" /></picture>
+                        <picture><img class="pictures"
+                                        src="https://via.placeholder.com/300X400.webp/000000/FFFFFF/?text=300X400"
+                                        data-src="https://placeimg.com/300/400/cat" alt="cat" /></picture>
+                        </div>
+        </main>
+        <footer>
+                <div class="footer-text">
+                        <p class="copyright">&copy; <span id="year"></span> | Iris Ayala | WDD230
+                        </p>
+
+                        <p class="date-color">Last Updated: <span id="currentDate"></span></p>
+                </div>
+
+        </footer>
+</body>
+
+</html>
