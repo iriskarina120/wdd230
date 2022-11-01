@@ -1,4 +1,4 @@
-const requestURL = "https://slnestun.github.io/wdd230/chamber/data/data.json";
+const requestURL = "https://iriskarina120.github.io/wdd230/chamber/json/spotlights.json";
 const spotlight_1 = document.querySelector(".spotlight-1");
 const spotlight_2 = document.querySelector(".spotlight-2");
 const spotlight_3 = document.querySelector(".spotlight-3");
