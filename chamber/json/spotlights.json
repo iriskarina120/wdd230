@@ -1,0 +1,48 @@
+{
+    "members": [
+        {
+            "name": "Santa Isabel",
+            "address": "Av. General San Martín 47, Lamapa",
+            "phone": "(+56)600 400 2000",
+            "website": "https://www.tiendeo.cl/Tiendas/lampa/santa-isabel-av-general-san-martin-valle-grande/29033",
+            "logo": "https://static0.tiendeo.cl/upload_negocio/negocio_8/logo2.png",
+            "level": "Gold"
+        },
+        {
+            "name": "McDonald's",
+            "address": "Av. Panamericana Nort 16, Lampa",
+            "phone": "(+56) 9 5928 1055",
+            "website": "https://www.mcdonalds.cl/",
+            "logo": "./images/mcdonalds-logo.webp",
+            "level": "Silver"
+        },
+        {
+            "name": "La Muzza Pizza",
+            "address": "Av La Montaña Norte 3096 ",
+            "phone": "(+56) 9 5404 5620",
+            "website": "https://elclubdelamilanesa.comhttps://web.facebook.com/162005184376730/posts/447807922463120/",
+            "logo": "https://www.revistadelvalle.cl/wp-content/uploads/2021/01/DISENO-REDONDO-PIXEL-CHICO.jpg",
+            "level": "Bronze"
+        },
+        {
+            "name": "Colegio San Pedro de Valle Grande",
+            "address": "Av. Gral. San Martín 245, Valle Grande, Lampa",
+            "phone": "(56 2) 26070411/ 26070412",
+            "website": "https://sites.google.com/colegiosanpedro.cl/colegiosanpedro/pagina-principal/san-pedro-valle-grande",
+            "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FcolegiosanpedroVG%2F&psig=AOvVaw3JCSv8GOSQNSBeZPVRQzVJ&ust=1667357573613000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNjyupH9i_sCFQAAAAAdAAAAABAE",
+            "level": "Non-profit"
+        },
+        
+        
+        {
+            "name": "Easton Outlet Mall",
+            "address": "Av. Pdte. Eduardo Frei Montalva 9709, Quilicura",
+            "phone": "(+56) 2 2733 5550",
+            "website": "https://www.eastonmallsantiago.cl/",
+            "logo": "https://www.eastonmallsantiago.cl/v2/wp-content/uploads/2021/05/Captura-de-Pantalla-2022-01-24-a-las-17.28.45.png",
+            "level": "Bronze"
+        }
+        
+           
+    ]
+}
