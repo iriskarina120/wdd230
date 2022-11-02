@@ -136,7 +136,7 @@ main img {
   font-size: 15px;
   color: white;
   background-color: #fbb02d; /*dark yellow */
-  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
+  box-shadow: 2px 2px 2px 2px #5c8001; /*dark green */
 }
 .join-button h2 {
   margin-top: -65%;
@@ -212,7 +212,7 @@ hr {
 .footer_class {
   background-color: #5c8001; /*dark green */  
   height: 90px; 
-  box-shadow: 10px 10px 10px  #c1beba; 
+  box-shadow: 10px 10px 10px  #c1beba; /* light gray */
   border-radius: 7px 7px 7px 7px;    
   text-align: center; 
   padding: 5px;  
@@ -246,7 +246,7 @@ footer {
   font-size: 2em;
 }
 .discover-photo {
-  background-color: #dcf0f8;
+  background-color:  #c1beba; /* light gray */
   margin: 10px;
   border-radius: 15px;
 }
