@@ -238,3 +238,109 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
+/*---------- Discover page ----------*/
+.discover-title,
+.count-visits {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 2em;
+}
+.discover-photo {
+  background-color: #dcf0f8;
+  margin: 10px;
+  border-radius: 15px;
+}
+.discover-section {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.discover-section img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+.discover-photo p {
+  width: 0;
+  min-width: 100%;
+  margin: 10px -5px;
+  font-size: 1.3em;
+}
+/*---------- FORM ----------*/
+.chamber-join,
+.contact-us {
+  text-align: center;
+  font-size: 2.3em;
+  color: #044b87;
+}
+.contact-p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  color: #044b87;
+  margin: 2rem 2rem;
+}
+form fieldset {
+  margin: 2rem 2rem;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+form label.top,
+form div {
+  display: block;
+  padding: 1em 0em 1em 0em;
+  font-size: 1.3em;
+}
+form label.top input,
+form label.top select,
+form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1em;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 15px 0px 15px 5px;
+  color: #555;
+  width: 95%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+form label.sbs {
+  font-size: 1.3em;
+  display: block;
+  padding: 0.75rem 0;
+}
+.level {
+  margin: 0px 10px;
+}
+form input.submitBtn {
+  display: block;
+  border: none;
+  background-color: #044b87;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto 2rem auto;
+  width: 96%;
+  max-width: 20rem;
+  align-items: center;
+  font-size: 1.3em;
+}
+form label.top input:required {
+  border-left: red solid 6px;
+}
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+.member-options ul {
+  display: none;
+}
