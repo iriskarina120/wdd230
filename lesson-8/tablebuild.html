@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="WDD230 Lesson 8 Build and style a Table using scope">
+    <title>HTML Table Build</title>
+    <link href="./styles/tablecss.css" rel="stylesheet" type="text/css">
+  </head>
+    <body>
+        <header><h1>HTML Table Build </h1></header>
+        <main>
+            <table>
+                <caption>Table 1: Wasatch Sales</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Sales</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Month</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>July</td>
+                        <td>3,000</td>
+                    </tr>
+                    <tr>
+                        <td>August</td>
+                        <td class="highlight">8,000</td>
+                    </tr>
+                    <tr>
+                        <td>September</td>
+                        <td>4,000</td>
+                    </tr>
+                    <tr>
+                        <td>October</td>
+                        <td>3,000</td>
+                    </tr>
+                    <tr>
+                        <td>November</td>
+                        <td>2,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <hr />
+        <div class="footer_class">
+            <footer>
+            <p>
+                &copy; <span id="year"></span>
+                | Iris Ayala | wdd230 |                                              
+            </p>            
+            <p class="footer_update">Last Update:
+            <span id="modified"> </span>
+            </p>
+            <script src="js/script.js"></script>   
+            </footer>
+        </div>
+    </body>
+</html>
