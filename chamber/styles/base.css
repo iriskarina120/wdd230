@@ -6,10 +6,8 @@
   --secondary-color: #fbb02d; /*dark yellow */
   --accent1-color: #7cb518; /*light green */
   --accent2-color: #c1beba; /* light gray */
-}
-  
-  
-/*----------Header Styles----------*/
+}  
+
 /*----------Header Styles----------*/
 header {
   background-color: #5c8001; /*dark green */;
@@ -267,4 +265,196 @@ footer {
   min-width: 100%;
   margin: 10px -5px;
   font-size: 1.3em;
+}
+
+/*---------- FORM ----------*/
+.chamber-join,
+.contact-us {
+  
+  text-align: center;
+  font-size: 2.3em;
+  color:#5c8001; /*dark green */
+}
+.contact-p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  color: #5c8001; /*dark green */
+  margin: 2rem 2rem;
+}
+form fieldset {
+  margin: 2rem 2rem;
+  border: 1px solid#5c8001; /*dark green */
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+form legend {
+  color: #5c8001;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+form label.top,
+form div {
+  display: block;
+  padding: 1em 0em 1em 0em;
+  font-size: 1.3em;
+}
+form label.top input,
+form label.top select,
+form label.top textarea {
+  
+  display: block;
+  font-size: 1em;
+  border: solid 1px #c1beba;;
+  border-radius: 4px;
+  padding: 15px 0px 15px 5px;
+  color: #555;
+  width: 95%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+form label.sbs {
+  font-size: 1.3em;
+  display: block;
+  padding: 0.75rem 0;
+}
+.level {
+  margin: 0px 10px;
+}
+form input.submitBtn {
+  display: block;
+  border: none;
+  background-color: #5c8001; /*dark green */
+  color: #c1beba;;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto 2rem auto;
+  width: 96%;
+  max-width: 20rem;
+  align-items: center;
+  font-size: 1.3em;
+}
+form label.top input:required {
+  border-left: #fbb02d solid 6px;
+}
+form label.top input:required:valid {
+  border-left: #5c8001; /*dark green */
+.member-options ul {
+  display: none;
+}
+/*---------- DISCOVER ----------*/
+.directory-main {
+  max-width: 60em;
+  margin: 20px auto;
+}
+#cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0.5rem;
+}
+.images {
+  border: 1px inset #5c8001; /*dark green */
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.3);
+}
+div#cards section {
+  display: grid;
+  text-align: center;
+  margin: 10px 50px;
+  border-radius: 5px;
+}
+div#cards section img {
+  margin: 10px auto;
+}
+div#list section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #5c8001; /*dark green */
+}
+div#list>section:nth-of-type(odd) {
+  background-color: white;
+  ;
+}
+div#list section a {
+  margin: 5px;
+  padding: 5px;
+}
+.directory-buttons {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+.directory-buttons button {
+  margin: 10px;
+  background-color: #5c8001; /*dark green */
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
+}
+#cards.hidden,
+#list.hidden {
+  display: none;
+}
+.thankyou-message {
+  background-color: #a8ccea;
+  margin: 20px 50px;
+  border-radius: 5px;
+  color: #5c8001; /*dark green */
+}
+.thankyou-message h2 {
+  text-align: center;
+  padding: 20px;
+}
+.thankyou-message p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.thankyou-message span {
+  font-weight: 300;
+}
+.contact-main form fieldset{
+  margin: 20px 5%;
+} 
+.contactInfo1, .contactInfo2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contact-map iframe{
+  border: 1px solid #5c8001;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.contact-main .contact-data {
+  margin: 20px 5% 22%;
+  border: 1px solid #5c8001;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+  color:#5c8001; /*dark green */
+}
+.contact-main{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 10px;
+}
+.contact-main form{
+  grid-row: 2/3;
+  margin: 0;
+}
+.contact-main .contact-data{
+  grid-row: 1/2;
+  margin: 0px 5%;
+  border: 1px solid #5c8001
+  border-radius: 10px;
+  padding: 0.5rem 2%;
 }
