@@ -3,9 +3,8 @@
     /*----------Header----------*/
     .header-content {
         display: grid;
-        grid-template-columns: auto auto auto auto;        
+        grid-template-columns: repeat(10, 1fr);
     }
-    
     .logo {
         grid-column: 2/3;
     }
@@ -14,36 +13,40 @@
     }
     nav {
         grid-column: 4/8;
-        grid-row: 1;
+        grid-row: 1/2;
     }
     .social-media {
-        grid-column: 10;
+        grid-column: 9/10;
     }
     .date {
         grid-column: 1/11;
         grid-row: 2/3;
         text-align: center;
-        color: black;
     }
-    
+    ul #primaryNav {
+        display: grid;
+    }
     nav ul {
         list-style-type: none;
         position: initial;
-        z-index: 1;        
-        right: 0px;     
-        
+        z-index: 1;
+        top: 100px;
+        right: 0px;
+        width: 100%;
+        background-color: #5c8001; /*dark green */
     }
     nav ul li a {
         display: inline-block;
         padding: .8rem 2vw;
         text-decoration: none;
-        color: white;
+        color: #FFFFFF;
         border-top: none;
         font-size: 1em;
     }
     /*---------- MAIN ----------*/
     .home-page {
-        margin: 10px 50px;
+        
+        max-width: 1000px;
     }
     .event-left {
         grid-column: 1/2;
@@ -99,14 +102,16 @@
         display: none;
     }
     nav ul li a:hover {
-        background-color: #7cb518; /*light green */
-       
+        background-color: white;
+        border-radius: 5px;
     }
-   
+    nav ul li.active a {
+        border-radius: 5px;
+    }
     /*----Discover---*/
     .discover-section img:hover {
-        box-shadow: 0 0 60px;
-        
+        box-shadow: 0 0 60px #5c8001; /*dark green */
+        border-radius: 20px;
     }
     /*----------Footer----------*/
     .footer-chamber-inf {
@@ -132,3 +137,53 @@
         padding: 0px 10px 0px 10px;
         border-left: 1px solid #FFFFFF;
     }
+    /*---------- FORM ----------*/
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    form .information-form,
+    form .contact-form,
+    form .business-form,
+    form.options {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .member-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .member-options ul {
+        list-style: none;
+        display: block;
+        margin-top: 0;
+        padding: 0.4rem 0;
+        font-size: 1.3em;
+    }
+    .member-options ul li:before {
+        content: '\2714\0020';
+        color: #5c8001; /*dark green */
+        padding-right: 5px;
+    }
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .contact{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .contact-main{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-row-gap: 10px;
+    }
+    .contact-main form{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .contact-main .contact-data{
+        grid-column: 2/3;
+        margin: 40px 10% 22%;
+    }
+}
