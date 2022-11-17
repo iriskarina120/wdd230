@@ -52,6 +52,7 @@
     /*---------- MAIN ----------*/
     .home-page {
         margin: 10px 50px;
+        
     }
     .event-left {
         grid-column: 1/2;
