@@ -1,5 +1,11 @@
 @media only screen and (min-width: 64rem) {
-
+    :root {
+        /* change the values below to your colors from your palette */
+        --primary-color: #5c8001; /*dark green */
+        --secondary-color: #fbb02d; /*dark yellow */
+        --accent1-color: #7cb518; /*light green */
+        --accent2-color: #c1beba; /* light gray */
+      }  
     /*----------Header----------*/
     .header-content {
         display: grid;
@@ -45,9 +51,7 @@
     }
     /*---------- MAIN ----------*/
     .home-page {
-        max-width: 2500px;
-        align-items: center;
-
+        margin: 10px 50px;
     }
     .event-left {
         grid-column: 1/2;
