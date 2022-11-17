@@ -347,10 +347,10 @@ form label.top input:required:valid {
 .member-options ul {
   display: none;
 }
-/*---------- DISCOVER ----------*/
+/*---------- DIRECTORY ----------*/
 .directory-main {
   max-width: 60em;
-  margin: 20px auto;
+  margin: 10px auto;  
 }
 #cards {
   display: grid;
