@@ -349,8 +349,8 @@ form label.top input:required:valid {
 }
 /*---------- DIRECTORY ----------*/
 .directory-main {
-  max-width: 60em;
-  margin: 10px auto;  
+  max-width: 50em;
+  margin: 20px auto;  
 }
 #cards {
   display: grid;
