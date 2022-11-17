@@ -10,7 +10,7 @@
 
 /*----------Header Styles----------*/
 header {
-  background-color: #5c8001; /*dark green */;
+  background-color: #5c8001; /*dark green */
 }
 .header-content {
   font-family: "Roboto", sans-serif;
@@ -25,7 +25,7 @@ header {
   margin: 0px 10px 0px 10px;
 }
 .chamber-name {
-  color: white;
+  color: #ffffff;
 }
 .chamber-name h1 {
   margin: auto;
@@ -48,7 +48,7 @@ nav button {
   background: transparent;
   border: none;
   font-size: 2rem;
-  color: white;
+  color: #ffffff;
 }
 nav ul {
   list-style-type: none;
@@ -57,22 +57,22 @@ nav ul {
   top: 100px;
   right: 0px;
   width: 100%;
-  background-color: #fbb02d; /*dark yellow */;
+  background-color: #c1beba; /* light gray */
 }
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
-  color: #5c8001; /*dark green */;
-  border-top: 1px solid white;
+  color:#5c8001; /*dark green */
+  border-top: 1px solid rgb(255, 255, 255);
   font-size: 1em;
 }
 nav ul li.active a {
   background-color: #7cb518; /*light green */
-  color: white;
+  color: #ffffff;
 }
 nav ul li a:hover {
-  background-color: #7cb518; /*light green */
+  background-color: #c1beba; /* light gray */
 }
 nav ul {
   display: none;
@@ -96,8 +96,43 @@ nav ul.open {
   padding: 10px 20%;
   font-weight: 400;
   margin: 10px;
-  border: 1px solid #c1beba;
-  background-color: white;
+  border: 1px solid white;
+  background-color: #eee;
+}
+/*----------Footer Styles----------*/
+.footer-color {
+  background-color: #5c8001; /*dark green */
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.footer-color img,
+.header-content img {
+  border-radius: 5px;
+}
+.footer-direction,
+.footer-contact,
+.footer-data {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.footer-course-inf p{
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.footer-course-inf a{
+  color: #ffffff;
+}
+.modification {
+  margin-bottom: 0px;
+}
+.bold-text {
+  font-weight: bolder;
 }
 /*---------- Main ----------*/
 .home-page {
@@ -108,13 +143,13 @@ nav ul.open {
   margin: 10px 20px 10px 20px;
 }
 div#invite-chamber {
-  background-color: #fbb02d; /*dark yellow */
+  background-color: #c1beba; /* light gray */
   text-align: center;
   margin-top: 0.5rem;
   font-size: 1.5rem;
   padding: 1rem;
   font-weight: bold;
-  color: white;
+  color: #5c8001; /*dark green */
 }
 main img {
   max-width: 100%;
@@ -132,8 +167,8 @@ main img {
   padding: 10px;
   text-align: center;
   font-size: 15px;
-  color: white;
-  background-color: #fbb02d; /*dark yellow */
+  color: #ffffff;
+  background-color: #5c8001; /*dark green */
   box-shadow: 2px 2px 2px 2px #5c8001; /*dark green */
 }
 .join-button h2 {
@@ -143,13 +178,13 @@ main img {
   font-family: "Roboto", sans-serif;
   color: #575757;
   font-size: 1.3em;
-  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
 }
 .event-left,
 .weather-left,
 .news-release,
 .spotlight {
-  background-color:white;
+  background-color: #c1beba; /* light gray */
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
@@ -166,8 +201,8 @@ figcaption {
   text-transform: capitalize;
 }
 h3 {
-  color: white;
-  text-shadow: 0 0 2px white;
+  color: #5c8001; /*dark green */
+  text-shadow: 0 0 2px #ffffff;
   margin: 5px auto 0px auto;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -179,15 +214,15 @@ p {
 }
 hr {
   height: 1px;
-  background-color: white;
+  background-color: #ffffff;
   border: none;
 }
 .spotlight-1,
 .spotlight-2,
 .spotlight-3 {
   border-radius: 5px;
-  background-color: #c1beba;
-  box-shadow: 0px 0px 2px 2px #5c8001; /*dark green */;
+  background-color: #c1beba; /* light gray */
+  box-shadow: 0px 0px 2px 2px #fbb02d;
 }
 .spotlight-1 {
   margin: 15px 15px 0px 15px;
@@ -206,36 +241,6 @@ hr {
 .join-left {
   display: none;
 }
-
-.footer_class {
-  background-color: #5c8001; /*dark green */  
-  height: 90px; 
-  box-shadow: 10px 10px 10px  #c1beba; /* light gray */
-  border-radius: 7px 7px 7px 7px;    
-  text-align: center; 
-  padding: 5px;  
-}
-
-#copyrigth {
-  color: white;     
-}
-
-.footer_update{
-  color: rgb(221, 224, 22); 
-  font-size: large;
-} 
-
-footer p {
- color:white;
- text-align: center;   
-}
-footer {
-  text-align: center;
-  color: white;
-  background-color: #5c8001;
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-}
 /*---------- Discover page ----------*/
 .discover-title,
 .count-visits {
@@ -244,7 +249,7 @@ footer {
   font-size: 2em;
 }
 .discover-photo {
-  background-color:  #c1beba; /* light gray */
+  background-color: #c1beba; /* light gray */
   margin: 10px;
   border-radius: 15px;
 }
@@ -266,14 +271,12 @@ footer {
   margin: 10px -5px;
   font-size: 1.3em;
 }
-
 /*---------- FORM ----------*/
 .chamber-join,
 .contact-us {
-  
   text-align: center;
   font-size: 2.3em;
-  color:#5c8001; /*dark green */
+  color: #5c8001; /*dark green */
 }
 .contact-p {
   text-align: center;
@@ -284,12 +287,12 @@ footer {
 }
 form fieldset {
   margin: 2rem 2rem;
-  border: 1px solid#5c8001; /*dark green */
+  border: 1px solid #5c8001; /*dark green */
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
 form legend {
-  color: #5c8001;
+  color: #5c8001; /*dark green */
   margin: 0 1rem;
   padding: 0.5rem;
   font-size: 1.3em;
@@ -303,10 +306,10 @@ form div {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  
+  -webkit-appearance: none;
   display: block;
   font-size: 1em;
-  border: solid 1px #c1beba;;
+  border: solid 1px #999;
   border-radius: 4px;
   padding: 15px 0px 15px 5px;
   color: #555;
@@ -326,7 +329,7 @@ form input.submitBtn {
   display: block;
   border: none;
   background-color: #5c8001; /*dark green */
-  color: #c1beba;;
+  color: #ffffff;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
   margin: 0 auto 2rem auto;
@@ -339,7 +342,8 @@ form label.top input:required {
   border-left: #fbb02d solid 6px;
 }
 form label.top input:required:valid {
-  border-left: #5c8001; /*dark green */
+  border-left:  #7cb518 solid 6px;
+}
 .member-options ul {
   display: none;
 }
@@ -355,7 +359,7 @@ form label.top input:required:valid {
 }
 .images {
   border: 1px inset #5c8001; /*dark green */
-  background-color: white;
+  background-color: #c1beba; /* light gray */
   padding: 0.5rem;
   text-align: center;
   border-radius: 4px;
@@ -380,7 +384,7 @@ div#list section {
   border: 1px solid #5c8001; /*dark green */
 }
 div#list>section:nth-of-type(odd) {
-  background-color: white;
+  background-color: #c1beba; /* light gray */
   ;
 }
 div#list section a {
@@ -396,12 +400,65 @@ div#list section a {
 .directory-buttons button {
   margin: 10px;
   background-color: #5c8001; /*dark green */
-  color: white;
+  color: #ffffff;
   border-radius: 5px;
   font-size: 1em;
-  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
+  box-shadow: 2px 2px 2px 2px #5c8001; /*dark green */
 }
 #cards.hidden,
 #list.hidden {
   display: none;
+}
+.thankyou-message {
+  background-color: #c1beba; /* light gray */
+  margin: 20px 50px;
+  border-radius: 5px;
+  color: #5c8001; /*dark green */
+}
+.thankyou-message h2 {
+  text-align: center;
+  padding: 20px;
+}
+.thankyou-message p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.thankyou-message span {
+  font-weight: 300;
+}
+.contact-main form fieldset{
+  margin: 20px 5%;
+} 
+.contactInfo1, .contactInfo2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contact-map iframe{
+  border: 1px solid #5c8001; /*dark green */
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.contact-main .contact-data {
+  margin: 20px 5% 22%;
+  border: 1px solid #5c8001; /*dark green */
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+  color:#5c8001; /*dark green */
+}
+.contact-main{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 10px;
+}
+.contact-main form{
+  grid-row: 2/3;
+  margin: 0;
+}
+.contact-main .contact-data{
+  grid-row: 1/2;
+  margin: 0px 5%;
+  border: 1px solid #5c8001; /*dark green */
+  border-radius: 10px;
+  padding: 0.5rem 2%;
 }
