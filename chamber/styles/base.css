@@ -350,7 +350,8 @@ form label.top input:required:valid {
 /*---------- DIRECTORY ----------*/
 .directory-main {
   max-width: 90em;
-  margin: 20px auto;  
+  margin: 20px auto;
+  p  
 }
 #cards {
   display: grid;
