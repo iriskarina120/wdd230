@@ -4,66 +4,150 @@
       <meta charset="utf-8" />
       <meta name="autor" content="Iris Ayala">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="./images/favicon.ico">
       <link rel="stylesheet" href="styles/normalize.css">
+      <link rel="stylesheet" href="styles/base.css">
       <link rel="stylesheet" href="styles/medium.css">
-      <link rel="stylesheet" href="styles/base.css">      
+      <link rel="stylesheet" href="styles/large.css">      
       <meta name="description" content="Publica-t Chamber of Commerce of Valle Grande">
       <title>Publica-T Valle Grande</title>
       
   </head>
-      <body>
-        <div class= "main-wrap">     
+  <body>
+    <div class="center-home">
         <header>
-            <div class="logo-box">
-                <img
-                  src="./images/logo_publicate.png"
-                  alt="Logo"
-                />
-              </div>
-            <div class="header-comntent"></div>
-
-                <h1>Publica-T </h1>
-                <h2> Chamber of Commerce of Valle Grande</h2>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="./index.html" target="_self"><img src="./images/logo_publicate.png" alt="Valle Grande Chamber "
+                            height="60" /></a>
+                </div>
+                <div class="chamber-name">
+                    <h1>Publica-T Valle Grande</h1>
+                    <p>Chamber Of Commerce</p>
+                </div>
                 <div class="social-media">
                     <div class="facebook-logo">
                         <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png"
                                 alt="facebook logo" height="32" width="32"></a>
                     </div>
                     <div class="instagram-logo">
-                        <a href="https://www.instagram.com" target="_blank"><img src="./images/linkedin.png"
-                                alt="Instagram logo" height="32" width="32"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png"
+                                alt="instagram logo" height="32" width="32"></a>
                     </div>
-                </div>        
+                </div>
                 <nav>
-                    <button id="burgger-btn"><span>&#9776;</span><span>X</span></button>
-                    <ul id="nav-label">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="community.html"> Community</a></li>
-                        <li><a href="register.html"> Register</a></li>
-                        <li><a href="contact.html"> Contact us</a></li>            
+                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./join.html">Join</a></li>
+                        <li class="active"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="date">
-                </div>            
+
+                </div>
+
             </div>
-        </header> 
+
+        </header>
         <main>
+            <div class="contact">
+                <div id="invite-chamber">
+                    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+                </div>
+                <h2 class="contact-us">Contact Us</h2>
+                <p class="contact-p">We’re here to help. Please fill out this form to contact us. Someone will get back
+                    to
+                    you as soon as
+                    possible.</p>
+                <div class="contact-main">
+                    <form method="get" action="./thankyou-contact.html">
+                        <fieldset class="contact-form">
+                            <legend>Contact Information</legend>
+                            <label class="top"> First Name*<input type="text" name="fname" required></label>
+                            <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                            <label class="top"> Cell Phone<input type="tel" name="phone" placeholder="123555"></label>
+                            <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                                    required></label>
+                            <label class="top"> Business Description<textarea name="description" maxlength="120"
+                                    rows="5" placeholder="Max length 120 characters"></textarea>
+                            <input type="hidden" name = "current-date" id="current-date" value=""></label>
+                        </fieldset>
+                        <input type="submit" value="Join Valle Grande" class="submitBtn">
+
+                    </form>
+
+                    <div class="contact-data">
+                        <div class="contactInfo1">
+                            <h2>Contact us</h2>
+                            <h3>Address</h3>
+                            <div>
+                                <p>Valle Grande Chamber of Commerce</p>
+                                <p>Quebrada El Sauce 80</p>
+                                <p>Lampa, Región metropolitana de Santiago</p>
+                            </div>
+                        </div>
+                        <div class="contactInfo2">
+                            <h3>Phone</h3>
+                            <p>9 4527 8152</p>
+                            <h3>Email</h3>
+                            <p>info@publicate.com</p>
+                            <h3>Visit Us</h3>
+                            <p>Monday - Thursday: 9:00 a.m. to 4:30 p.m </p>
+                        </div>
+
+                        <div class ="contact-map">
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1666.911476419187!2d-70.7484763!3d-33.3234438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662bf65ce0f052f%3A0x225bb706cc90289!2sOficinas%20administracion%20y%20venta%20de%20terrenos%20Valle%20Grande!5e0!3m2!1sen!2scl!4v1567539284197!5m2!1sen!2scl" 
+                            title="Valle Chamber"        
+                            allowfullscreen=""
+                            loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-             
-            <div class="footer_class">
-            <footer>
-                <p>
-                &copy; <span id="year"></span>
-                | Iris Ayala | WDD230 |                                              
-                </p>            
-                <p class="footer_update">Last Update:
-                <span id="modified"> </span>
-                </p>
-            <script src="js/script.js"></script>
-            <script src="./js/menu-ham.js"></script>   
-            </footer>
-        </div>
+           
+        <footer class="footer-color">
+            <div class="footer-chamber-inf">
+                <div class="footer-logo">
+                    <img src="./images/logo_publicate.png" alt="Publica-T Valle Grande" width="98">
+                </div>
+                <div class="footer-direction">
+                    <p class="bold-text">Publica-T Valle Grande Chamber of Commerce</p>
+                    <p>Qubrada El Sauce 80</p>
+                    <p>Lampa, Regiòn Metrpolitana, Chile</p>
+                </div>
+                <div class="footer-contact">
+                    <p>info@publicat.com</p>
+                    <p>+56 9 45 478 152</p>                    
+                </div>
+            </div>
+            <hr>
+            <div class="footer-course-inf">
+                <div class="footer_class">
+                    <footer>
+                        <p>
+                        &copy; <span id="year"></span>
+                        | Iris Ayala | WDD230 |                                              
+                        </p>            
+                        <p class="footer_update">Last Update:
+                        <span id="modified"> </span>
+                        </p>
+                </div>                
+            </div>
+        </footer>
     </div>
-    </body>
+    <script src="./js/current-day.js"></script>
+    <script src="./js/menu-ham.js"></script>    
+    <script src="./js/update.js"></script>
+    <script src="./js/banner.js"></script>
+    <script src="./js/windchill.js"></script>
+    <script src="./js/spotlight.js"></script>
+
+</body>
   </body>
   </html>
